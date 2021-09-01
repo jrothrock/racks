@@ -1,6 +1,8 @@
 require "racks/version"
 require "racks/routing"
-require "racks/controller"
+require "racks/core/controller"
+require "racks/util"
+require "racks/dependencies"
 require "racks/support/array"
 
 module Racks
